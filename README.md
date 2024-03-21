@@ -1,5 +1,6 @@
 Tarea 10 TÉCNICAS DE COMUNICACIÓN
-Link a mi repositorio: 
+
+Link a mi repositorio: https://github.com/Tapiiaa/Tapia_Pedro_UD10.git
 
 Realizado por: Pedro Alonso Tapia Lobo
 
