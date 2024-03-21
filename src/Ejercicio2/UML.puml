@@ -1,0 +1,29 @@
+@startuml
+
+class ExcepcionStockDesbordado {
+    - message : String
+}
+
+class Libro {
+    - stock : int
+    - stockMaximo : int
+    - stockMinimo : int
+    + agregarLibros(cantidad : int) : int
+    + quitarLibros(cantidad : int) : int
+    + consultarStock() : int
+}
+
+class Menu {
+    - libros : ArrayList<Libro>
+    + menu() : void
+}
+
+class SistemaDeControlDeStock {
+    + main(args : String[]) : void
+}
+
+Libro ..> ExcepcionStockDesbordado : throws >
+Menu --> Libro : uses
+SistemaDeControlDeStock --> Menu : uses
+
+@enduml

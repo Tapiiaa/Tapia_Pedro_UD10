@@ -1,0 +1,18 @@
+@startuml
+
+class Menu {
+    + main(args: String[]) : void
+}
+
+class ConvertidorTemperatura {
+    - numero : double
+    - resultado : double
+    - scanner : Scanner
+
+    + metodo1() : void
+    - grados(numero: double, unidad: String) : double
+}
+
+Menu --> ConvertidorTemperatura : creates
+
+@enduml
