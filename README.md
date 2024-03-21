@@ -21,7 +21,14 @@ Introducir la temperatura en Celsius: -274
 La temperatura está por debajo del cero absoluto.
 Explicación: 
 
-En este ejercicio se implementan dos clases 
+En este ejercicio se implementan dos clases, Menu y ConvertidorTemperatura
+
+La clase ConvertidorTemperatura tiene los métodos para la conversion de temperatura, mientras que en la clase Menu, se le pide al usuario que indique la operación a realizar
+
+
+
+
+
 Ejercicio 2:
 Enunciado:
 El objetivo es crear un sistema de control de stock que gestione libros en una librería, permitiendo agregar, eliminar, y consultar libros.
